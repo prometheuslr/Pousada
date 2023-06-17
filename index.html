@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Box icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+
+     <!-- Swiper css -->
+     
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+     <!-- css -->
+     <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Pousadas</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <nav class="nav bd-container">
+            <a href="index.html" class="nav__logo">Paraíso Tropical</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Inicio</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Reseva</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Localização</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="swiper-container gallery-top">
+           <div class="swiper-wrapper">
+
+            <!-- Pousada 1-->
+            <section class="pousada swiper-slide">
+                <img src="assets/img/book/33.jpg" alt="" class="pousada__bg">
+
+                <div class="pousada__container bd-container">
+                    <div class="pousa__data">
+                        <h2 class="pousada__subtitle">Pousada</h2>
+                        <h1 class="pousada__title">Paraíso Tropical</h1>
+                        <p class="pousada__description"> Um oásis de serenidade e encanto em meio a um cenário paradisíaco. Situada em uma praia intocada, com areias douradas e cercada por uma exuberante vegetação tropical, nossa pousada é o refúgio perfeito para aqueles que buscam uma experiência única em contato com a natureza. </p>
+                        <a href="#" class="pousada__button">Conheça <i class='bx bx-right-arrow-alt pousada__button-icon'></i></a>
+                    </div>
+
+                    <div class="pousada__video">
+                        <div class="pousada__video-content">
+                            <i class='bx bx-play-circle pousada__video-icon'></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pousada 2-->
+            <section class="pousada swiper-slide">
+                <img src="assets/img/book/ss.jpg" alt="" class="pousada__bg">
+
+                <div class="pousada__container bd-container">
+                    <div class="pousa__data">
+                        <h2 class="pousada__subtitle">Pousada</h2>
+                        <h1 class="pousada__title">Paraíso Nordestino</h1>
+                        <p class="pousada__description">Conheça nossa adimiravel pousada</p>
+                        <a href="#" class="pousada__button">Conheça <i class='bx bx-right-arrow-alt pousada__button-icon'></i></a>
+                    </div>
+
+                    <div class="pousada__video">
+                        <div class="pousada__video-content">
+                            <i class='bx bx-play-circle pousada__video-icon'></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pousada 3-->
+            <section class="pousada swiper-slide">
+                <img src="assets/img/book/wwe.jpg" alt="" class="pousada__bg">
+
+                <div class="pousada__container bd-container">
+                    <div class="pousa__data">
+                        <h2 class="pousada__subtitle">Pousada</h2>
+                        <h1 class="pousada__title">Sonho Tropical</h1>
+                        <p class="pousada__description">Conheça nossa adimiravel pousada </p>
+                        <a href="#" class="pousada__button">Conheça<i class='bx bx-right-arrow-alt pousada__button-icon'></i></a>
+                    </div>
+
+                    <div class="pousada__video">
+                        <div class="pousada__video-content">
+                            <i class='bx bx-play-circle pousada__video-icon'></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pousada Popup -->
+
+            <div class="pousada__popup" id="popup">
+                <div>
+                    <div class="pousada__popup-close" id="popup-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+                    <iframe class="pousada__popup-video" src="https://www.youtube.com/embed/_UAmKbHrPss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+           </div> 
+        </div>
+
+        <!--========== CONTROLS ==========-->
+        <div class="controls gallery-thumbs">
+            <div class="controls__container swiper-wrapper">
+                <img src="assets/img/book/33.jpg" alt="" class="controls__img swiper-slide">
+                <img src="assets/img/book/ss.jpg" alt="" class="controls__img swiper-slide">
+                <img src="assets/img/book/wwe.jpg" alt="" class="controls__img swiper-slide">
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
