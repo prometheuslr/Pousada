@@ -70,3 +70,6 @@ function scrollAnimation(){
 }
 
 controlImg.forEach(c => c.addEventListener('click', scrollAnimation))
+
+
+
